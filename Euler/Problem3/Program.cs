@@ -6,7 +6,18 @@ namespace Problem3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            long n = 600851475143;
+            long b;
+            
+
+            for (b = 2; b < n; b++)
+            {
+                if (n % b == 0)
+                {
+                    n = n / b;
+                }
+            }
+            Console.WriteLine(n);
         }
     }
 }

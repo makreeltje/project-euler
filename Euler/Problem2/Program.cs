@@ -8,13 +8,13 @@ namespace Problem2
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            int b = 1;
-            int sum = 0;
+            var a = 0;
+            var b = 1;
+            var sum = 0;
 
-            for (int i = 2; i < int.MaxValue; i++)
+            for (var i = 2; i < int.MaxValue; i++)
             {
-                int temp = a + b;
+                var temp = a + b;
                 a = b;
                 b = temp;
                 if (temp > 4000000)
