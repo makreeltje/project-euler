@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Problem1
+namespace project_euler.Problems
 {
-    public class Program
+    public class Problem1
     {
-        static void Main(string[] args)
+        public int Main()
         {
             var sum = 0;
 
@@ -14,7 +14,7 @@ namespace Problem1
                     sum += i;
             }
 
-            Console.WriteLine(sum);
+            return sum;
         }
     }
 }
