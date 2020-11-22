@@ -6,7 +6,7 @@ namespace Problem1
     {
         static void Main(string[] args)
         {
-            var sum = 0;
+            int sum = 0;
 
             for (int i = 1; i < 1000; i++)
             {
