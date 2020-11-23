@@ -12,6 +12,7 @@
     <projectFile>Problem8/Problem8.csproj</projectFile>
     <projectFile>Problem9/Problem9.csproj</projectFile>
     <projectFile>Problem010/Problem010.csproj</projectFile>
+    <projectFile>Problem011/Problem011.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -33,34 +34,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd64c6ce-7973-4b97-9954-a6bcc3b2afd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem004/Problem004.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem005/Problem005.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem006/Problem006.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem007/Problem007.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem008/Problem008.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem009/Problem009.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem010/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem011/Problem011.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem011/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Euler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Euler.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem1/Problem1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Problem010/Problem010.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem001/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem2/Problem2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Problem002/Problem002.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem002/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem3/Problem3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Problem003/Problem003.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem003/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem4/Problem4.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Problem001/Problem001.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem004/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem5/Problem5.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem005/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem6/Problem6.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem6/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem006/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem7/Problem7.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem7/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem007/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem8/Problem8.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem008/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem9/Problem9.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problem9/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem009/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +82,7 @@
         <option value="$PROJECT_DIR$/Problem003/Program.cs" />
         <option value="$PROJECT_DIR$/Problem002/Program.cs" />
         <option value="$PROJECT_DIR$/Problem001/Program.cs" />
+        <option value="$PROJECT_DIR$/Problem011/Program.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +108,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Problem1">
+  <component name="RunManager" selected=".NET Project.Problem011">
     <configuration name="Euler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -157,6 +136,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Problem010/Problem010.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Problem011" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Problem011/Problem011.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -342,7 +339,7 @@
       <workItem from="1606079831585" duration="2571000" />
       <workItem from="1606082431277" duration="3426000" />
       <workItem from="1606147933404" duration="3555000" />
-      <workItem from="1606155764213" duration="4019000" />
+      <workItem from="1606155764213" duration="5803000" />
     </task>
     <servers />
   </component>
@@ -372,22 +369,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="441" height="464" key="DebuggerActiveHint/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606064523876" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1606159743712">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1606161149606">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606159743712" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1606159743712">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606161149606" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1606161149606">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606159743712" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1606159743712">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606161149606" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1606161149606">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606159743712" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1606159743712">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606161149606" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1606161149606">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606159743712" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606161149606" />
     <state width="2517" height="449" key="GridCell.Tab.1.bottom" timestamp="1606156950241">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -452,10 +449,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="449" key="GridCell.Tab.4.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606156950241" />
-    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size" timestamp="1606156666381">
+    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size" timestamp="1606160297476">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606156666381" />
+    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606160297476" />
     <state width="1288" height="708" key="XDebugger.FullValuePopup" timestamp="1606081513991">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
