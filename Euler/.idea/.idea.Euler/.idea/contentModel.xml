@@ -150,6 +150,18 @@
         <e p="Problem012.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Problem013" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="Problem013.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Problem013.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
     </e>
   </component>
 </project>
