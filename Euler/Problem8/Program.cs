@@ -19,9 +19,7 @@ namespace Problem8
                     if (j == 0)
                         tempResult = long.Parse(temp.Substring(j, 1));
                     else
-                    {
                         tempResult *= long.Parse(temp.Substring(j, 1));
-                    }
                 }
 
                 if (tempResult > result)
