@@ -34,7 +34,6 @@ namespace Problem012
                     nod += 2;
                 }
             }
-            //Correction if the number is a perfect square
             if (sqrt * sqrt == num) {
                 nod--;
             }
