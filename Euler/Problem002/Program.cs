@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace Problem2
 {
     class Program
     {
+        private static Stopwatch _stopwatch = new Stopwatch();
+
         static void Main(string[] args)
         {
+            _stopwatch.Start();
             var a = 0;
             var b = 1;
             var sum = 0;
@@ -25,7 +29,9 @@ namespace Problem2
                 }
             }
             
-            Console.WriteLine(sum);
+            Console.WriteLine("Result: " + sum);
+            _stopwatch.Stop();
+            Console.WriteLine("Time: " + _stopwatch.Elapsed);
         }
     }
 }

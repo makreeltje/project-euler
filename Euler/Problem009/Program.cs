@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Timers;
 
 namespace Problem9
 {
     class Program
     {
+        private static Stopwatch _stopwatch = new Stopwatch();
         static void Main(string[] args)
         {
+            _stopwatch.Start();
             var a = 0;
             var b = 0;
             var c = 0;
@@ -29,7 +33,9 @@ namespace Problem9
                 }
             }
             
-            Console.WriteLine(a * b * c);
+            Console.WriteLine("Result: " + a * b * c);
+            _stopwatch.Stop();
+            Console.WriteLine("Timer: " + _stopwatch.Elapsed);
         }
     }
 }

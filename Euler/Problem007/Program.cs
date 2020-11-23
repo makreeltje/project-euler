@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace Problem7
 {
+    
     class Program
     {
+        private static Stopwatch _stopwatch = new Stopwatch();
         public static void Main(string[] args)
         {
+            _stopwatch.Start();
             int count = 0;
             int num = 2;
             while (true)
@@ -25,7 +29,9 @@ namespace Problem7
                 num++;
             }
 
-            Console.WriteLine(num);
+            Console.WriteLine("Result: " + num);
+            _stopwatch.Stop();
+            Console.WriteLine("Time: " + _stopwatch.Elapsed);
         }
 
         static bool isPrime(int num)
