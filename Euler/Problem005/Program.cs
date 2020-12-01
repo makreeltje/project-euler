@@ -10,16 +10,16 @@ namespace Problem5
         static void Main(string[] args)
         {
             _stopwatch.Start();
-            int i = 20;
+            int r = 20;
 
-            while (i % 2 != 0 || i % 3 != 0 || i % 4 != 0 || i % 5 != 0 || i % 6 != 0 || i % 7 != 0 || i % 8 != 0 ||
-                   i % 9 != 0 || i % 10 != 0 || i % 11 != 0 || i % 12 != 0 || i % 13 != 0 || i % 14 != 0 || i % 15 != 0 ||
-                   i % 16 != 0 || i % 17 != 0 || i % 18 != 0 || i % 19 != 0 || i % 20 != 0)
+            while (r % 2 != 0 || r % 3 != 0 || r % 4 != 0 || r % 5 != 0 || r % 6 != 0 || r % 7 != 0 || r % 8 != 0 ||
+                   r % 9 != 0 || r % 10 != 0 || r % 11 != 0 || r % 12 != 0 || r % 13 != 0 || r % 14 != 0 || r % 15 != 0 ||
+                   r % 16 != 0 || r % 17 != 0 || r % 18 != 0 || r % 19 != 0 || r % 20 != 0)
             {
-                i += 20;
+                r += 20;
             }
 
-            Console.WriteLine("Result: " + i);
+            Console.WriteLine("Result: " + r);
             _stopwatch.Stop();
             Console.WriteLine("Time: " + _stopwatch.Elapsed);
         }

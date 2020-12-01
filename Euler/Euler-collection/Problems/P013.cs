@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Diagnostics;
 
-namespace Problem013
+namespace Euler_collection.Problems
 {
-    class Program
+    /*
+     * Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+     * (SEE DIGITNUMBERS VARIABLE)
+     */
+    
+    public class P013 : ProblemBase
     {
-        private static Stopwatch _stopwatch = new Stopwatch();
-        static void Main(string[] args)
+        protected override void Run()
         {
-            _stopwatch.Start();
-
             string[] digitNumbers =
             {
                 "37107287533902102798797998220837590246510135740250",
@@ -114,20 +115,17 @@ namespace Problem013
                 "53503534226472524250874054075591789781264330331690"
             };
 
-            long result = 0;
+            var result = 0L;
 
-            for (int i = 0; i < 100; i++)
+            for (var i = 0; i < 100; i++)
             {
-                long temp = long.Parse(digitNumbers[i].Substring(0, 11));
+                var temp = long.Parse(digitNumbers[i].Substring(0, 11));
                 result += temp;
             }
 
             result = long.Parse(result.ToString().Substring(0, 10));
             
-            
-            Console.WriteLine("Result: " + result);
-            _stopwatch.Stop();
-            Console.WriteLine("Time: " + _stopwatch.Elapsed);
+            Console.WriteLine("Result: {0}", result);
         }
     }
 }

@@ -15,6 +15,8 @@
     <projectFile>Problem011/Problem011.csproj</projectFile>
     <projectFile>Problem012/Problem012.csproj</projectFile>
     <projectFile>Problem013/Problem013.csproj</projectFile>
+    <projectFile>Problem014/Problem014.csproj</projectFile>
+    <projectFile>Euler-collection/Euler-collection.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -36,11 +38,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd64c6ce-7973-4b97-9954-a6bcc3b2afd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problem013/Problem013.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problem013/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Euler-collection.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/ProblemBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P000.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P001.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P002.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P003.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P004.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P005.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P006.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P007.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P008.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P009.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P010.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P011.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P012.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P013.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Euler-collection/Problems/P014.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem014/Problem014.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem014/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Euler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Euler.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Euler.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem005/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem005/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem007/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem007/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem009/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem009/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problem013/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Problem013/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,44 +75,76 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Problem003/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem007/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem002/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem004/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem006/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Euler/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem007/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem012/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem006/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Problem001/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem008/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem009/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem008/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem009/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/d2/94ef07f7/Number.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Problem005/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem005/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/22/1a106110/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem003/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem002/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem004/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Euler-collection/ProblemBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Euler/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Problem010/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Problem2/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem1/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem3/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem4/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem5/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem6/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem7/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem8/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem9/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem010/Program.cs" />
         <option value="$PROJECT_DIR$/Problem009/Program.cs" />
         <option value="$PROJECT_DIR$/Problem008/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem007/Program.cs" />
         <option value="$PROJECT_DIR$/Problem006/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem005/Program.cs" />
         <option value="$PROJECT_DIR$/Problem003/Program.cs" />
         <option value="$PROJECT_DIR$/Problem002/Program.cs" />
         <option value="$PROJECT_DIR$/Problem011/Program.cs" />
         <option value="$PROJECT_DIR$/Problem004/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem001/Program.cs" />
-        <option value="$PROJECT_DIR$/Problem012/Program.cs" />
         <option value="$PROJECT_DIR$/Problem013/Program.cs" />
+        <option value="$PROJECT_DIR$/Problem013/dada.cs" />
+        <option value="$PROJECT_DIR$/Problem014/Program.cs" />
+        <option value="$PROJECT_DIR$/Problem001/Problem15.cs" />
+        <option value="$PROJECT_DIR$/Problem001/Program.cs" />
+        <option value="$PROJECT_DIR$/Problem014/euler99.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Program.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problem001.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/001.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P008.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P009.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P010.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P011.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P012.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P013.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P014.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P002.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P003.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P004.cs" />
+        <option value="$PROJECT_DIR$/Problem005/Program.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P005.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P006.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/IProblemBase.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P001.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/P007.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/ProblemBase.cs" />
+        <option value="$PROJECT_DIR$/Problem007/Program.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Main.cs" />
+        <option value="$PROJECT_DIR$/Problem012/Program.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P000.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P003.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P004.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P002.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P001.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P005.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P006.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P007.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P008.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P009.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P010.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P011.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P012.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P013.cs" />
+        <option value="$PROJECT_DIR$/Euler-collection/Problems/P014.cs" />
       </list>
     </option>
   </component>
@@ -112,9 +168,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Problem013">
+  <component name="RunManager" selected=".NET Project.Euler-collection">
+    <configuration name="Euler-collection" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Euler-collection/Euler-collection.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Euler" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -196,6 +271,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Problem013/Problem013.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Problem014" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Problem014/Problem014.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -381,7 +474,11 @@
       <workItem from="1606079831585" duration="2571000" />
       <workItem from="1606082431277" duration="3426000" />
       <workItem from="1606147933404" duration="3555000" />
-      <workItem from="1606155764213" duration="9537000" />
+      <workItem from="1606155764213" duration="9808000" />
+      <workItem from="1606168988615" duration="35000" />
+      <workItem from="1606849611283" duration="550000" />
+      <workItem from="1606850427477" duration="112000" />
+      <workItem from="1606850596577" duration="10393000" />
     </task>
     <servers />
   </component>
@@ -411,90 +508,90 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="441" height="464" key="DebuggerActiveHint/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606064523876" />
-    <state width="2517" height="449" key="GridCell.Tab.0.bottom" timestamp="1606165261544">
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1606864166213">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261544" />
-    <state width="2517" height="449" key="GridCell.Tab.0.center" timestamp="1606165261544">
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864166213" />
+    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1606864166212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261544" />
-    <state width="2517" height="449" key="GridCell.Tab.0.left" timestamp="1606165261544">
+    <state width="2517" height="399" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864166212" />
+    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1606864166212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261544" />
-    <state width="2517" height="449" key="GridCell.Tab.0.right" timestamp="1606165261544">
+    <state width="2517" height="399" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864166212" />
+    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1606864166212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261544" />
-    <state width="2517" height="449" key="GridCell.Tab.1.bottom" timestamp="1606165261673">
+    <state width="2517" height="399" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864166212" />
+    <state width="2517" height="449" key="GridCell.Tab.1.bottom" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261673" />
-    <state width="2517" height="449" key="GridCell.Tab.1.center" timestamp="1606165261673">
+    <state width="2517" height="449" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.1.center" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261673" />
-    <state width="2517" height="449" key="GridCell.Tab.1.left" timestamp="1606165261673">
+    <state width="2517" height="449" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.1.left" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261673" />
-    <state width="2517" height="449" key="GridCell.Tab.1.right" timestamp="1606165261673">
+    <state width="2517" height="449" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.1.right" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261673" />
-    <state width="2517" height="449" key="GridCell.Tab.2.bottom" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.2.bottom" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.2.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.2.center" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.2.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.2.center" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.2.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.2.left" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.2.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.2.left" timestamp="1606864080726">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.2.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.2.right" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.2.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080726" />
+    <state width="2517" height="449" key="GridCell.Tab.2.right" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.2.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.3.bottom" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.2.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.3.bottom" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.3.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.3.center" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.3.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.3.center" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.3.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.3.left" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.3.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.3.left" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.3.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.3.right" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.3.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.3.right" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.4.bottom" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.3.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.4.bottom" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.4.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.4.center" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.4.bottom/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.4.center" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.4.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.4.left" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.4.center/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.4.left" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.4.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state width="2517" height="449" key="GridCell.Tab.4.right" timestamp="1606165261407">
+    <state width="2517" height="449" key="GridCell.Tab.4.left/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state width="2517" height="449" key="GridCell.Tab.4.right" timestamp="1606864080727">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="449" key="GridCell.Tab.4.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606165261407" />
-    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size" timestamp="1606164364794">
+    <state width="2517" height="449" key="GridCell.Tab.4.right/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606864080727" />
+    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size" timestamp="1606850619580">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606164364794" />
+    <state x="872" y="431" key="Rider.ProjectTemplateDialog.Size/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606850619580" />
     <state width="1288" height="708" key="XDebugger.FullValuePopup" timestamp="1606081513991">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -507,24 +604,5 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.375.1920.1040@0.0.2560.1400" timestamp="1606080952187" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Problem013/Program.cs</url>
-          <line>125</line>
-          <properties documentPath="E:\GitKraken\CSharp\project-euler\Euler\Problem013\Program.cs" initialLine="125">
-            <startOffsets>
-              <option value="7552" />
-            </startOffsets>
-            <endOffsets>
-              <option value="7608" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
